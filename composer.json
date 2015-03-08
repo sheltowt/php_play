@@ -2,5 +2,8 @@
     "require": {
         "j7mbo/twitter-api-php": "dev-master",
         "propel/propel": "~2.0@dev"
+    },
+    "autoload": {
+          "classmap": ["twitter/generated-classes/"]
     }
 }

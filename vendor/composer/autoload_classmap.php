@@ -6,4 +6,19 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Author' => $baseDir . '/twitter/generated-classes/Author.php',
+    'AuthorQuery' => $baseDir . '/twitter/generated-classes/AuthorQuery.php',
+    'Base\\Author' => $baseDir . '/twitter/generated-classes/Base/Author.php',
+    'Base\\AuthorQuery' => $baseDir . '/twitter/generated-classes/Base/AuthorQuery.php',
+    'Base\\Book' => $baseDir . '/twitter/generated-classes/Base/Book.php',
+    'Base\\BookQuery' => $baseDir . '/twitter/generated-classes/Base/BookQuery.php',
+    'Base\\Publisher' => $baseDir . '/twitter/generated-classes/Base/Publisher.php',
+    'Base\\PublisherQuery' => $baseDir . '/twitter/generated-classes/Base/PublisherQuery.php',
+    'Book' => $baseDir . '/twitter/generated-classes/Book.php',
+    'BookQuery' => $baseDir . '/twitter/generated-classes/BookQuery.php',
+    'Map\\AuthorTableMap' => $baseDir . '/twitter/generated-classes/Map/AuthorTableMap.php',
+    'Map\\BookTableMap' => $baseDir . '/twitter/generated-classes/Map/BookTableMap.php',
+    'Map\\PublisherTableMap' => $baseDir . '/twitter/generated-classes/Map/PublisherTableMap.php',
+    'Publisher' => $baseDir . '/twitter/generated-classes/Publisher.php',
+    'PublisherQuery' => $baseDir . '/twitter/generated-classes/PublisherQuery.php',
 );
