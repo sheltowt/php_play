@@ -1,5 +1,6 @@
 <?php
 	require 'vendor/autoload.php';
+	require 'classes/twitter.php';
 	
 	$string = file_get_contents("settings.json");
 	
@@ -14,5 +15,7 @@
 	    ->buildOauth($url, $requestMethod)
 	    ->performRequest();
 	
-	var_dump(json_decode($response));
+	$twitterData = json_decode($response);
+	
+	$twitterApi = new TwitterApi($twitterData);
 ?>
