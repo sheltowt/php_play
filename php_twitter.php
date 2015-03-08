@@ -17,5 +17,8 @@
 	
 	$twitterData = json_decode($response);
 	
+	var_dump($twitterData);
+	
 	$twitterApi = new TwitterApi($twitterData);
+	$twitterApi->extractUrls();
 ?>
