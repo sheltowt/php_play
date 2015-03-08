@@ -18,5 +18,6 @@
 	$twitterData = json_decode($response);
 
 	$twitterApi = new TwitterApi($twitterData);
-	echo $twitterApi->extractText();
+	$names = $twitterApi->extractText();
+	var_dump($names);
 ?>

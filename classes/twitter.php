@@ -9,15 +9,15 @@
 		}
 		
 		public function extractText(){
+			$arrayNames = [];
 			foreach($this->data as $key => $tweet){
 				foreach($tweet as $key => $value){
 					if ($key == "text"){
-						echo $value;
-						array_push($this->arrayText, $value);
+						array_push($arrayNames, $value);
 					}
 				}
 			}
-			return $this->arrayText;
+			return $arrayNames;
 		}
 		
 		
