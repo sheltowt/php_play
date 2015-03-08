@@ -5,7 +5,6 @@
 		
 		public function __construct($data) {
 			$this->data = $data;
-			echo $this->data;
 		}
 		
 		public function extractText(){
